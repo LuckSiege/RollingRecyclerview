@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="line_color">#EEEEEE</color>
+    <color name="tab_color_true">#FF391B</color>
+    <color name="tab_color_false">#9b9b9b</color>
+    <color name="color_53">#53575e</color>
+    <color name="color_work_money">#FF8241</color>
+    <color name="app_color">#29c1f6</color>
+</resources>

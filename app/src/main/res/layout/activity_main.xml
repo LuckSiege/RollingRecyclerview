@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.luck.rollingrecyclerview.MainActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/ll_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:clipToPadding="true"
+        android:fitsSystemWindows="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_city"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="6dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="6dp"
+            android:drawableRight="@mipmap/xiala1a"
+            android:gravity="center"
+            android:text="北京"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_search"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:layout_marginBottom="6dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/home_search_bg"
+            android:drawableLeft="@mipmap/search1a"
+            android:gravity="center_vertical"
+            android:hint="搜索"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:singleLine="true"
+            android:textColor="#333333"
+            android:textColorHint="#929292"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/iv_sao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="6dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/saoma1a" />
+    </LinearLayout>
+</RelativeLayout>

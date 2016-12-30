@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/app_color</item>
+        <item name="colorPrimaryDark">@color/app_color</item>
+        <item name="colorAccent">@color/app_color</item>
+    </style>
+
+    <style name="RatingBarStyle" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/rating_drawable</item>
+        <item name="android:minHeight">18dip</item>
+        <item name="android:maxHeight">18dip</item>
+        <item name="android:isIndicator">false</item>
+    </style>
+</resources>
